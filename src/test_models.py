@@ -5,9 +5,9 @@ import os
 
 # Aggiungiamo la cartella corrente al path per importare i moduli
 sys.path.append(os.getcwd())
-
 from src.models.teacher import BERTTeacher
 from src.models.student import TinyBERTStudent
+
 
 def test_models():
     # 1. Setup Device
